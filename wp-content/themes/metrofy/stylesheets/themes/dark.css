@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 div.white h1, div.white h2, div.white h3, div.white h4, div.white h5, div.white h6{color:#333;}
 body,
 .header,
-.band.navigation{background: url("../../images/zigzag.png");}
+.band.navigation{background: url("../../images/BG_RB_brown.png");} /*zigzag.png*/
 .content{background:url("../../images/content_bg4.png");}
 .box { background:#eee; border:1px solid #ccc;}
 .band.navigation {	
