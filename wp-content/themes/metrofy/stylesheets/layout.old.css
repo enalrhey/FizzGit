@@ -1,0 +1,562 @@
+/*
+* Metrofy V1.0
+* Copyright 2012
+* Author: Chaitanya Venneti
+* Author URL: http://www.chaitanyavenneti.com
+* 
+* Description: Stylesheet for the layout of complete site, Defines the structural arrangement of the site
+*/
+
+/* Table of Contents
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+.band {
+	/*padding: 0 0 14px 0;	*/
+}
+
+
+
+
+
+
+
+
+/*images*/
+
+/*services tiles - home page*/
+
+
+
+/*Blog Articles on Home Page*/
+
+
+
+
+
+
+
+#related-posts{
+	float:left;
+	width:100%;
+}
+
+#related-posts a{text-decoration:none; font-size:14px;}
+#related-posts a:hover{text-decoration:underline;}
+
+#related-posts h5{
+padding-left: 35px;
+padding-top: 5px;
+padding-bottom: 5px;
+font-weight: 400;}
+
+#related-posts ul {padding:0 10px;float: left;}
+
+#related-posts ul li{float:left; width:200px; margin-right:10px; margin-top:10px; overflow: hidden;
+position: relative;}
+
+#related-posts ul li:last-child{margin-right:0px;}
+
+#related-posts ul li img{width:200px; height:175px;}
+
+
+
+
+
+article.preview {
+
+}
+
+article.preview .breadcrumbs {
+	margin-bottom: 7px;
+}
+
+article.preview .meta {
+	margin-bottom: 7px;
+}
+
+/*Pricing Table*/
+.pricingcol{padding: 15px;}
+.profitable div.divider{ border-top: none;
+	}
+h3.price{text-align:right;}
+p.info{width:70%; font-size:11px; float:left;}
+p.btnSignup {float:right;}
+/*Nivo Slider*/
+
+.slider-wrapper { 
+	width: 80%; 
+	margin: 10px auto;
+}
+
+
+/*Elastic Slider*/
+
+.ei-slider {
+position: relative;
+width: 100%;
+max-width: 1920px;
+height: 400px;
+margin: 0 auto;
+padding-top: 30px;
+}
+
+.ei-slider-loading{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index:999;
+       
+    text-align: center;
+    line-height: 400px;
+}
+
+.ei-slider-large{
+    height: 100%;
+    width: 100%;
+    position:relative;
+    overflow: hidden;
+}
+
+.ei-slider-large li{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.ei-slider-large li img{
+    width: 100%;
+}
+
+.ei-title{
+    position: absolute;
+    right: 0%;
+    margin-right: 13%;
+    top: 30%;    
+    padding-right: 25px;
+    padding-left: 25px;
+}
+/*slide heading styles*/
+.ei-title h2, .ei-title h3{
+    text-align: right;
+}
+.ei-title h2{
+    font-size: 32px;
+    line-height: 48px;    
+    font-weight: bold;    
+}
+.ei-title h3{
+    font-size: 36px;
+    line-height: 48px;    
+    text-transform: uppercase;    
+    font-style: italic;
+}
+/*slide thumb styles*/
+.ei-slider-thumbs{
+    height: 13px;
+    margin: 0 auto;
+    position: relative;
+}
+.ei-slider-thumbs li{
+    position: relative;
+    float: left;
+    height: 100%;
+}
+.ei-slider-thumbs li.ei-slider-element{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    height: 60%;
+    z-index: 10;
+    text-indent: -9000px;    
+}
+.ei-slider-thumbs li a{
+    display: block;
+    text-indent: -9000px;    
+    width: 100%;
+    height: 50%;
+    cursor: pointer;
+    
+}
+.ei-slider-thumbs li img{
+    position: absolute;
+    bottom: 50px;
+    opacity: 0;
+    z-index: 999;
+    max-width: 100%;
+    transition: all 0.4s ease;
+    -webkit-box-reflect:
+        below 0px -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            from(transparent),
+            color-stop(50%, transparent),
+            to(rgba(255,255,255,0.3))
+            );
+}
+.ei-slider-thumbs li:hover img{
+    opacity: 1;
+    bottom: 13px;
+}
+/*To avoid slide heading overlap from certain widths*/
+@media screen and (max-width: 830px) {
+    .ei-title{
+        position: absolute;
+        right: 0px;
+        margin-right: 0px;
+        width: 100%;
+        text-align: center;
+        top: auto;
+        bottom: 10px;
+        background: rgba(255,255,255,0.9);
+        padding: 5px 0;
+    }
+    .ei-title h2, .ei-title h3{
+        text-align: center;
+    }
+    .ei-title h2{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .ei-title h3{
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+/*forms*/
+
+	/*input[type=search]::-webkit-search-decoration,
+	input[type=search]::-webkit-search-cancel-button,
+	input[type=search]::-webkit-search-results-button,
+	input[type=search]::-webkit-search-results-decoration {
+	  display: none;
+	}
+	*/
+	
+
+/*articles*/
+article.sub header {
+	background: url(../images/diagonal_pale.png) repeat;
+	font-size: 14px;
+	line-height: 14px;
+	margin: 28px 0;
+}
+
+article.subscribe header {
+	margin-top: 0px;
+}
+
+article.sub header h4 {
+	font-weight: bold;	
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;	
+	display: inline;
+	padding: 0 10px;
+	margin: 0 0 0 14px;
+	letter-spacing: 0.1em;
+	font-family: arial, sans-serif;
+}
+
+/*footer*/
+
+
+
+
+
+
+/*lists*/
+	
+
+/*flickr*/
+
+
+/*Margins and Paddings*/
+/*
+.mt0{margin-top: 0px;}
+.mt10 {margin-top:10px;}
+.mt21 {margin-top:21px;}
+.mt25 {margin-top:25px;}
+.mt35 {margin-top:35px;}
+.mt45{margin-top:45px;}
+.mt100{margin-top:100px;}
+.mt200{margin-top:200px;}
+
+.mb10{margin-bottom:10px;}
+.mb15{margin-bottom:15px;}
+.mb25{margin-bottom:25px;}
+.mb35{margin-bottom:35px;}
+.mb45{margin-bottom:45px;}
+.mb100{margin-bottom:100px;}
+.mb200{margin-bottom:200px;}
+
+.pb0{padding-bottom:0px;}
+.pb10{padding-bottom:10px;}
+.pb20{padding-bottom:20px;}
+.pb30{padding-bottom:30px;}
+.pb40{padding-bottom:40px;}
+.pb50{padding-bottom:50px;}
+.pb100{padding-bottom:100px;}
+.pb200{padding-bottom:200px;}
+
+.pb5{padding-bottom:5px;}
+.pb15{padding-bottom:15px;}
+.pb25{padding-bottom:25px;}
+.pb35{padding-bottom:35px;}
+
+.pt10{padding-top:10px;}
+.pt20{padding-top:20px;}
+.pt30{padding-top:30px;}
+.pt40{padding-top:40px;}
+.pt45{padding-top:45px;}
+.pt50{padding-top:50px;}
+
+.pt5{padding-top:5px;}
+.pt15{padding-top:15px;}
+.pt25{padding-top:25px;}
+.pt35{padding-top:35px;}
+
+.pl10{padding-left:10px;}
+*/
+
+.w97 {width: 97%;}
+
+/*team*/
+.team ul li div.block {
+	position: relative;	
+	float: left;
+	cursor: pointer;
+	margin-right:15px;
+	margin-bottom:20px;
+	display:block;
+}
+
+.team ul li.last-in-row div.block{
+	margin-right:0px;
+}
+
+.team .maxi {
+	display: none;
+}
+
+.team ul li div a img{height: 140px;
+width: 140px;
+display: block;}
+
+div.bio{
+	position:absolute; 
+	height:45px; 
+	left:0; bottom:0; 
+	width:140px; 
+
+	max-height:50px;
+	font-size: 15px;
+	line-height: 16px;
+}
+
+p.name{ font-size: 15px;
+ margin:0px; margin-left: 10px; font-weight: bold; padding-top: 6px; line-height: 18px;}
+
+p.occupation{font-size: 12px; margin:0px; margin-left: 10px;}
+
+a.more{	
+	padding-left:35px; 
+	line-height:30px;
+	/*float:right;*/
+	height:30px;
+	text-decoration:none;
+	padding-bottom: 13px;
+	padding-top: 8px;
+}
+/*Portfolio*/
+
+
+/*portfolio - related works*/
+/*related posts, featured tiles*/
+
+
+/*categories*/
+ul.categories {
+	margin: 0;
+}
+ul.categories li {	
+	margin: 0;
+}
+
+ul.categories li a {
+	text-decoration: none;
+	line-height: 35px;
+	display: block;
+}
+
+/*tabs*/
+/*first just fix the border-box stuff*/
+
+
+/* @group Toggles */
+
+.toggle_container {
+	padding: 10px;
+	margin-bottom: 1px;
+	background-color: #fff;
+}
+
+
+p.trigger {
+	display: block;	
+	padding:  8px 8px 8px 16px;
+	margin: 0;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 1.25em;
+	line-height: 175%;
+}
+
+/* Up Toggle State */
+
+p.trigger {
+	background: #f8f8f8 url(../images/icons/16_expand.png) no-repeat 10px center;
+	border-top: 1px solid #e5e5e5;
+	padding-left: 34px;
+}
+
+p.trigger a {
+	color: #2774ae;
+	text-shadow: #fff 1px -1px 0;
+	text-decoration: none;
+}
+
+/* Hover Toggle State */
+
+p.trigger:hover {
+	background: #fff url(../images/icons/16_expand.png) no-repeat 10px center;
+}
+
+p.trigger a:hover,p.trigger.active a:hover {
+	color: #2774ae;
+	text-shadow: #fff -1px 1px 0;
+}
+
+/* Active Toggle State */
+
+p.trigger.active {
+	background: #fff url(../images/icons/16_collapse.png) no-repeat 10px center;
+	border-top: 1px solid #ebebeb;
+}
+
+p.trigger.active a {
+	color: #000;
+	text-shadow: #fff 1px 1px 0;
+}
+
+/* @end */
+
+/*Tiles*/
+
+
+/*icons*/
+.icon {
+	font-family: "WebSymbolsRegular";
+	font-size: 28px;
+	line-height: 1em;
+}
+
+.subscribe span {
+	width: 30%;
+	float: left;
+}
+.subscribe p {
+	width: 70%;
+	float: right;
+	margin: 0;
+	font-family: Georgia, serif;
+}
+
+.subscribe em {
+	font-size: 21px;
+	font-style: normal;
+}
+
+/*pagination*/
+
+
+/* #Page Styles
+================================================== */
+
+
+/* #Media Queries
+================================================== */
+
+	
+/*Typography*/
+
+
+
+/*Theme Options - Style Switcher*/
+#panel {
+	position: fixed;
+	top: 150px;
+	z-index: 999;
+}
+
+#panel-admin {
+	float: left;
+	width: 170px;
+	padding: 20px;
+	background: #CFCECE;
+	color: #999;
+	border-bottom: 1px solid #999;
+	border-top: 1px solid #999;
+}
+
+#panel-admin select, #panel-admin select:focus {
+	width: 100%;
+	padding: 3px;
+	margin: 10px 0 15px 0;
+	font-size: 12px;
+	border: none;
+	background-color: white;
+}
+
+.open {
+	background: url(../images/style-panel-button.png) no-repeat 0 0 transparent;
+	display: block;
+	height: 190px;
+	width: 33px;
+	float: right;
+}
+
+/**** Isotope Filtering ****/
+
+
+
+/*Article Inline Images*/
+
+
+/*--------------------------*
+/*  WordPress Styles
+/*--------------------------*/

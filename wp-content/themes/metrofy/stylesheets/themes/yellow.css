@@ -1,0 +1,162 @@
+/*
+	Stylesheet for YELLOW color scheme
+*/
+
+a, a:visited, a:hover, a:focus {color:#FC0;}
+
+::selection {
+
+	color: white;
+
+	background: #FC0;
+
+}
+.highlight1{color:white; background:#FC0;}
+
+.highlight2{border-bottom: 1px dotted #FC0;}
+
+.button,
+.custom-button a,
+a.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	background: #FC0; /* Old browsers */		
+}
+
+.button:hover,
+.custom-button a:hover,
+a.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+	background: #FFAD00; /* Old browsers */		
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color:#FC0;}
+
+.band.footer {
+	border-top:1px solid #FC0;
+}
+
+.band.bottom {
+	background:#FC0;
+}
+
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background:		#FC0;	
+}
+
+nav.primary ul li a:hover {
+	color:#fff;	
+}
+
+nav.primary ul li:hover > a,  nav.primary ul li a.active{
+	background: #FC0;
+}
+
+#blog-section-home article p.heading{
+	background: #FC0;	
+}
+
+#blog-section article p.heading, div.type-post p.heading {
+	background: #FC0;	
+}
+
+.widget a, .widget_categories ul li a{ color:#FC0;}
+
+.flex-control-nav li a.active,
+.flex-control-nav li a:hover {
+	background: #FC0;
+}
+
+a.prev:hover, a.next:hover{background-color:#FC0;}
+
+
+footer.main div.footer_section {background: #FC0;}
+
+footer a:hover {
+	color: #FC0;
+}
+
+#portfolio-nav li:hover{background:#FC0;}
+#portfolio-nav li.current {background:#FC0;}
+
+#portfolio-2col li .inner-item h4, #portfolio li .inner-item h4{background:#FC0;}
+
+#featured-work-item .prev:hover, #featured-work-item .next:hover{background-color: #FC0;}
+
+#related-works ul li a span, a.tile span, a.static_tile span {background: #FC0; color:white;}
+
+.slides span{background: #FC0; color:black;}
+
+.slides h3{color:white;}
+.slides a:hover{color:#ccc;}
+
+.tabs li a.active {background: #FC0;}
+
+.pages li a.active {border-bottom: 2px solid #Fc0;}
+
+nav.pagination li a.selected {color: #FC0;}
+
+.pagination a:hover{
+color:#fff;
+background: #FC0;
+}
+ 
+.pagination .current{
+background: #FC0;
+color:#fff;
+}
+
+div.band h4.sub-meta a:hover{ color:#FC0;}
+
+h1.pageTitle{border-bottom: 2px solid #FC0;}
+
+p.blockquote { border-left:2px solid #FC0; }
+blockquote{ border-left: 1px solid #FC0; }
+blockquote.right{ border-right:1px solid #FC0; }
+
+/*images*/
+.widget_categories h5{
+	background: #D5D5D5 url('../../images/yellow/cat_icon_yellow.png') no-repeat 10px center;
+}
+.widget_recent_entries h5{
+	background: #D5D5D5 url('../../images/yellow/blog_icon_yellow.png') no-repeat 10px center;
+}
+.widget_recent_comments h5{
+	background: #D5D5D5 url('../../images/yellow/comments_icon_yellow.png') no-repeat 10px center;
+}
+.widget_archive h5{
+	background: #D5D5D5 url('../../images/yellow/table_icon_yellow.png') no-repeat 10px center;
+}
+.widget_meta h5{
+	background: #D5D5D5 url('../../images/yellow/controls_icon_yellow.png') no-repeat 10px center;
+}
+
+#related-posts h5{
+	background: url('../../images/yellow/related_icon_yellow.png') no-repeat 0px center;
+}
+
+#comments h5{
+	background: url('../../images/yellow/comments_icon_yellow.png') no-repeat 0px center;
+}
+
+.comment {border-left: 5px solid #FC0;}
+	.comment a{ color:#FC0;}
+
+a.more{
+	background:url("../../images/yellow/icon_more_yellow.png") no-repeat; 
+}
+
+.address{ background:url('../../images/yellow/address_icon_yellow.png') no-repeat; padding-left:30px;}
+.phone{ background:url('../../images/yellow/phone_icon_yellow.png') no-repeat 4px 3px; padding-left:30px; color:#FC0;}
+.email{ background:url('../../images/yellow/email_icon_yellow.png') no-repeat 4px 9px; padding-left:30px;padding-top: 3px;}
+
+.sf-menu li.current-menu-item {
+	background:		#FC0;
+	color:white;
+}

@@ -1,0 +1,18 @@
+/*
+Theme Name:     metrofy-child
+Description:    Child theme for the Metrofy theme 
+Author:         artichoke jalapeno design
+Author URI:     http://www.artichokejalapenodesign.com
+Template:       metrofy
+Version:        0.1.0
+*/
+
+@import url("../metrofy/style.css");
+
+.sectionhead {
+	font-family: "rosewood-std" !important;
+}
+
+
+#topheader {
+height: 300px;}
