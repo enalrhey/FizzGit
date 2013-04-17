@@ -16,7 +16,10 @@
 				$featured_img_class = "featured_img";
 			?>			
 			<div class="white <?php echo $featured_img_class;?>">
-				<div class="tiles_hub">			
+				<div class="tiles_hub">
+				<div class="internal get_fizz_button" id="header_CTA">
+					<a href="#store">Order Fizz Here!</a>
+				</div>			
 					<?php if(!empty($staticImage_LinkTo)){?>
 						<a href="<?php echo $staticImage_LinkTo?>" alt="">				
 							<img src="<?php echo $staticImage; ?>" alt="" class="<?php echo $tmg_data['staticImageFullWidth']; ?>"
