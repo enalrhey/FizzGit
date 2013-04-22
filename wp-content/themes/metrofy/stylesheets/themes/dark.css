@@ -46,7 +46,13 @@ body,
 }
 #nav{border-bottom: 1px solid #333;}
 nav.primary ul li a {
-	color: #999;
+	/* color: #999; */
+/* 	Added by AJD */
+	font-family: "chauncy-pro" !important;
+	color: white;
+	font-size: 1.3em;
+	font-weight: bold;
+/* 	END added by AJD */
 }
 nav.primary ul li a:hover {
 	background: #424242;

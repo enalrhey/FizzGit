@@ -385,6 +385,7 @@ img.aligncenter {
 }
 p img {
     max-width: 100%;
+    height: auto; /* Added by AJD for responsive sizing images w/o ratio squeezing*/
     padding: 0;
 }
 img.alignright {
