@@ -22,7 +22,7 @@ div.white h1, div.white h2, div.white h3, div.white h4, div.white h5, div.white 
 body,
 .header,
 .band.navigation{background: rgb(37, 17, 4);} /* url("../../images/BG_RB_brown.png") */ /* original image --> *//*zigzag.png*/
-.content{background:url("../../images/content_bg4.png");}
+.content{background:url("http://www.foodwecook.com/wp-content/uploads/2013/04/large_darker_bubbles_BG.png");} /* "../../images/content_bg4.png" *//* changed by AJD */
 .box { background:#eee; border:1px solid #ccc;}
 .band.navigation {	
 	color: #e0e0e0; 	
@@ -321,8 +321,9 @@ h2.sectionhead, h2.sectionhead_css, h3.sectionhead, h3.sectionhead_css {
 }
 div.white h1.pageTitle, h1.pageTitle
 {
-	background: #333;
-	color: #A4A4A4;
+	background: rgb(37, 17, 4)/* #333 */; /* updated by AJD */
+	color: white /* #A4A4A4 */;
+	font-family: "chauncy-pro" !important;/* added by AJD */
 }
 
 /* Menu Styles

@@ -187,6 +187,7 @@ div.tiles_hub img.featured {
     margin: 0 auto;
     padding: 10px 0px;
     width: auto;
+    height:auto; /* Jena added AJD */
 }
 img.fullwidth {
     display: block;
@@ -367,7 +368,7 @@ div.type-post { padding: 22px 0 }
      margin-top: 10px;
      overflow: hidden;
  }
-#blog-section article img { height: 250px }
+#blog-section article img { /* height: 250px  commented out by AJD */ }
 #blog-section article img.thumbnail { height: 216px }
 /*inline images*/
 img.alignright {
