@@ -68,7 +68,8 @@ figcaption {
 h1.logo { margin: 0px }
  h1.logo a {
      display: block;
-     height: 74px;
+     height: 80px; /* jena ajd change from 74px logo change and added margin-top:20 */
+     margin-top:20px;
      text-shadow: none;
      width: 250px;
  }
@@ -76,11 +77,11 @@ h1.logo { margin: 0px }
 /*    Navigation & Menus
 /*-----------------------------------------------------------------------------------*/
 .band.navigation { margin: 0 auto }
-#tray { padding: 0 0 108px 0 }
+#tray { padding: 0 0 134px 0 }  /* third value is logo height + 34px was 108px jena ajd */
 #nav {
     left: 0px;
     position: fixed;
-    top: 74px;
+    top: 100px; /* this is logo height was 74 jena ajd */
     width: 100%;
     z-index: 1000;
 }
@@ -144,6 +145,7 @@ nav.primary select {
     width: 100%;
 }
 .social_menu {
+    display: none;  /* <-- added by AJD */
     position: absolute;
     right: 5px;
     top: 5px;

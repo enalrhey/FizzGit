@@ -32,6 +32,19 @@
 	display:none;
 }
 
+/* ===== social media widget ===== */
+
+ 
+ #sthoverbuttons #sthoverbuttonsMain {
+ 	width: auto !important;
+ 	padding: 0 !important;
+ }
+ 
+ #sthoverbuttons {
+ 	top: 5% !important;
+ }
+ 
+
 /* ===== Store Styles ===== */
 
 .ecwid-results-topPanel-controlsPanel {
@@ -119,6 +132,9 @@ left: 70%;
 	#headerCTA {
 		
 	}
+	
+
+	
 }
 
 
