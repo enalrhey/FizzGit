@@ -121,19 +121,22 @@ left: 70%;
 }
 
 
-/* ===== small screen styling for CTA buttons =====*/
+/* ===== small screen styling ===== */
 @media all and (max-width: 500px) {
+	
+	/* for CTA buttons */ 
 	.get_fizz_button {
 	text-align: center;
 	font-size: 1.2em;
 	margin-top: 15px;
 	width: 40%;
 	}
-	#headerCTA {
+	
+	/*social media widget not fixed and moved down*/
+	#sthoverbuttons {
+		/* position: absolute; */
 		
 	}
-	
-
 	
 }
 

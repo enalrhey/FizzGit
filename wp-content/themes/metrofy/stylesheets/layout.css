@@ -211,7 +211,7 @@ div.justify p {
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
-    text-align: justify;
+    /* text-align: justify; */ /* commented out by AJD */
 }
 div.band h4 {
     font-size: 20px;
@@ -1199,6 +1199,23 @@ span.intent-meta a { margin-right: 4px }
         position: initial;
         text-decoration: none;
     }
+    /* jena ajd inserted the following: */
+    
+    h1.logo a img {
+    	height:40px;
+    }
+		 h1.logo a {
+		 height: 40px; /* jena ajd */
+/* 
+		 margin-top:20px;
+ */
+	 }
+	
+	#tray { padding: 0 0 74px 0 }  /* third value is logo height + 34px was 108px jena ajd */
+	#nav {
+		top: 40px; /* this is logo height was 74 jena ajd */
+		
+	}
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { 
@@ -1223,4 +1240,21 @@ span.intent-meta a { margin-right: 4px }
         position: initial;
         text-decoration: none;
     }
+    
+        /* jena ajd inserted the following: */
+    
+    h1.logo a img {
+    	height:40px;
+    }
+		 h1.logo a {
+		 height: 40px; /* jena ajd */
+		 margin-top:0;
+
+	 }
+	
+	#tray { padding: 0 0 74px 0 }  /* third value is logo height + 34px was 108px jena ajd */
+	#nav {
+		top: 40px; /* this is logo height was 74 jena ajd */
+		
+	}
 }
