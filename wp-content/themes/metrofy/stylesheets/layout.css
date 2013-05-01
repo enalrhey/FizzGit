@@ -1206,16 +1206,19 @@ span.intent-meta a { margin-right: 4px }
     }
 		 h1.logo a {
 		 height: 40px; /* jena ajd */
-/* 
-		 margin-top:20px;
- */
+		 margin-top:10px;
 	 }
 	
-	#tray { padding: 0 0 74px 0 }  /* third value is logo height + 34px was 108px jena ajd */
+	#tray { padding: 0 0 84px 0 }  /* third value is logo height + 34px was 108px jena ajd */
 	#nav {
-		top: 40px; /* this is logo height was 74 jena ajd */
+		top: 50px; /* this is logo height was 74 jena ajd */
 		
 	}
+	nav.primary select {
+		width: 250px;
+		margin: 0 auto;
+	}
+
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { 
@@ -1243,18 +1246,35 @@ span.intent-meta a { margin-right: 4px }
     
         /* jena ajd inserted the following: */
     
-    h1.logo a img {
+    /* 
+h1.logo a img {
+    	height:40px;
+    }
+		 h1.logo a {
+		 height: 40px; 
+		 margin-top:0;
+	 }
+	#tray { padding: 0 0 74px 0 }
+	#nav {
+		top: 40px; 
+	}
+ */
+ 
+     h1.logo a img {
     	height:40px;
     }
 		 h1.logo a {
 		 height: 40px; /* jena ajd */
-		 margin-top:0;
-
+		 margin-top:10px;
 	 }
 	
-	#tray { padding: 0 0 74px 0 }  /* third value is logo height + 34px was 108px jena ajd */
+	#tray { padding: 0 0 84px 0 }  /* third value is logo height + 34px was 108px jena ajd */
 	#nav {
-		top: 40px; /* this is logo height was 74 jena ajd */
+		top: 50px; /* this is logo height was 74 jena ajd */
 		
+	}
+	nav.primary select {
+		width: 250px;
+		margin: 0 auto;
 	}
 }
