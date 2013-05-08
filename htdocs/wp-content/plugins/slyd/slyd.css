@@ -11,9 +11,11 @@
 	width: 100%;
 	z-index: 500;
 }
+/* jena ajd
 .slyd:hover {
 	box-shadow:0 0 30px #000;
 }
+ */
 	.slyd a:link,
 	.slyd a:visited,
 	.slyd a:hover,
@@ -88,6 +90,14 @@
 					width:100% !important;
 					z-index:502
 				}
+				
+				/* jena added following selector ajd */
+				.slyd_title {
+					font-size: 20px !important;
+					padding: 5px !important;
+					line-height: 20px !important;
+				}
+				
 				.slyd .slyd_wrapper .a_slyd .slyd_content .slyd_title,
 				.slyd .slyd_wrapper .a_slyd .slyd_content .slyd_caption {
 					background:#000;
